@@ -1062,7 +1062,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cookie-parser@npm:~1.4.4":
+"cookie-parser@npm:1.4.6":
   version: 1.4.6
   resolution: "cookie-parser@npm:1.4.6"
   dependencies:
@@ -1188,7 +1188,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"debug@npm:2.6.9, debug@npm:^2.6.9, debug@npm:~2.6.9":
+"debug@npm:2.6.9, debug@npm:^2.6.9":
   version: 2.6.9
   resolution: "debug@npm:2.6.9"
   dependencies:
@@ -1311,20 +1311,20 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "dicee-challenge@workspace:."
   dependencies:
-    cookie-parser: ~1.4.4
+    cookie-parser: 1.4.6
     cz-conventional-changelog: 3.3.0
-    debug: ~2.6.9
+    debug: 2.6.9
     ejs: ~2.6.1
-    eslint: ^7.32.0 || ^8.2.0
+    eslint: 8.15.0
     eslint-config-airbnb-base: latest
-    eslint-plugin-import: ^2.25.2
-    express: ~4.16.1
-    http-errors: ~1.6.3
-    husky: ^8.0.0
-    morgan: ~1.9.1
-    nodemon: ^2.0.16
-    pinst: ^3.0.0
-    prettier-eslint-cli: ^6.0.1
+    eslint-plugin-import: 2.26.0
+    express: 4.16.4
+    http-errors: 1.6.3
+    husky: 8.0.1
+    morgan: 1.9.1
+    nodemon: 2.0.16
+    pinst: 3.0.0
+    prettier-eslint-cli: 6.0.1
   languageName: unknown
   linkType: soft
 
@@ -1575,7 +1575,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-import@npm:^2.25.2":
+"eslint-plugin-import@npm:2.26.0":
   version: 2.26.0
   resolution: "eslint-plugin-import@npm:2.26.0"
   dependencies:
@@ -1633,7 +1633,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^7.32.0 || ^8.2.0, eslint@npm:^8.14.0, eslint@npm:^8.7.0":
+"eslint@npm:8.15.0, eslint@npm:^8.14.0, eslint@npm:^8.7.0":
   version: 8.15.0
   resolution: "eslint@npm:8.15.0"
   dependencies:
@@ -1737,7 +1737,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"express@npm:~4.16.1":
+"express@npm:4.16.4":
   version: 4.16.4
   resolution: "express@npm:4.16.4"
   dependencies:
@@ -2393,7 +2393,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"husky@npm:^8.0.0":
+"husky@npm:8.0.1":
   version: 8.0.1
   resolution: "husky@npm:8.0.1"
   bin:
@@ -3304,7 +3304,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"morgan@npm:~1.9.1":
+"morgan@npm:1.9.1":
   version: 1.9.1
   resolution: "morgan@npm:1.9.1"
   dependencies:
@@ -3379,7 +3379,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nodemon@npm:^2.0.16":
+"nodemon@npm:2.0.16":
   version: 2.0.16
   resolution: "nodemon@npm:2.0.16"
   dependencies:
@@ -3728,7 +3728,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pinst@npm:^3.0.0":
+"pinst@npm:3.0.0":
   version: 3.0.0
   resolution: "pinst@npm:3.0.0"
   bin:
@@ -3751,7 +3751,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-eslint-cli@npm:^6.0.1":
+"prettier-eslint-cli@npm:6.0.1":
   version: 6.0.1
   resolution: "prettier-eslint-cli@npm:6.0.1"
   dependencies:
