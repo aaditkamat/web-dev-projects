@@ -9,6 +9,7 @@
     "eslint-config-airbnb-base": "latest",
     "eslint-plugin-import": "^2.25.2",
     "husky": "^8.0.0",
+    "nodemon": "^2.0.16",
     "pinst": "^3.0.0",
     "prettier-eslint-cli": "^6.0.1"
   },
@@ -16,7 +17,7 @@
     "postinstall": "husky install",
     "prepack": "pinst --disable",
     "postpack": "pinst --enable",
-    "start": "node ./bin/www",
+    "start": "nodemon ./bin/www",
     "lint": "eslint . --ext .js",
     "lint:fix": "eslint . --ext .js --fix",
     "format": "prettier-eslint public/**/*.js public/**/*.css routes/*.js app.js --write"
