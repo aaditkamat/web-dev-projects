@@ -19,7 +19,6 @@
     "ejs": "^3.1.7",
     "express": "^4.16.3",
     "http-errors": "2.0.0",
-    "lodash": "^4.17.21",
     "mongoose": "^6.4.0",
     "morgan": "1.10.0"
   },
