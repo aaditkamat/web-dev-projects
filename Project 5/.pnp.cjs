@@ -37,7 +37,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["debug", "virtual:993368e4d5b99ecbd76d0bd2c43aca0cecadb2a241ef3dc8dc18085b2d79167d5195671fbb701c9e6312177b2cac6e3d058c4aa296d48c4e02c788163cdcab10#npm:4.3.4"],\
             ["express", "npm:4.18.1"],\
             ["http-errors", "npm:2.0.0"],\
-            ["mongoose", "npm:6.4.1"],\
+            ["mongoose", "npm:6.4.2"],\
             ["morgan", "npm:1.10.0"],\
             ["nodemon", "npm:2.0.16"]\
           ],\
@@ -1845,10 +1845,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["mongoose", [\
-        ["npm:6.4.1", {\
-          "packageLocation": "./.yarn/cache/mongoose-npm-6.4.1-00ffa359d6-cfbd727328.zip/node_modules/mongoose/",\
+        ["npm:6.4.2", {\
+          "packageLocation": "./.yarn/cache/mongoose-npm-6.4.2-19c87f3d5a-16945de7f4.zip/node_modules/mongoose/",\
           "packageDependencies": [\
-            ["mongoose", "npm:6.4.1"],\
+            ["mongoose", "npm:6.4.2"],\
             ["bson", "npm:4.6.4"],\
             ["kareem", "npm:2.4.1"],\
             ["mongodb", "npm:4.7.0"],\
@@ -2324,7 +2324,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["debug", "virtual:993368e4d5b99ecbd76d0bd2c43aca0cecadb2a241ef3dc8dc18085b2d79167d5195671fbb701c9e6312177b2cac6e3d058c4aa296d48c4e02c788163cdcab10#npm:4.3.4"],\
             ["express", "npm:4.18.1"],\
             ["http-errors", "npm:2.0.0"],\
-            ["mongoose", "npm:6.4.1"],\
+            ["mongoose", "npm:6.4.2"],\
             ["morgan", "npm:1.10.0"],\
             ["nodemon", "npm:2.0.16"]\
           ],\
