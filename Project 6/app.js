@@ -2,11 +2,16 @@ const express = require("express");
 
 const mongoose = require("mongoose");
 mongoose.connect("mongodb://localhost:27017/userDB");
+const encrypt = require('mongoose-encryption');
+
+require('dotenv').config();
 
 const userSchema = new mongoose.Schema({
   username: "string",
   password: "string",
 });
+
+userSchema.plugin(encrypt, { secret: process.env.SECRET, encryptedFields: ["password"]});
 
 const User = new mongoose.model("user", userSchema);
 
@@ -38,16 +43,16 @@ app.route("/").get((req, res) => {
 app.route("/login").get((req, res) => {
     res.render("login");
 }).post((req, res) => {
-   const user = User.findOne({
+   User.findOne({
         email: req.body.username,
    }, (err, user) => {
-    if (!err && user.password === req.body.password) {
+    if (!err && user !== null && user.password === req.body.password) {
         res.render("secrets");
     } else {
         res.render("home");
         console.error(err);
     }
-   })
+   });
 });
 
 app.route("/register").get((req, res) => {
