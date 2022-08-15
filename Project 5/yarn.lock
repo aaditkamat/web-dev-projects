@@ -516,7 +516,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cookie-parser@npm:^1.4.6":
+"cookie-parser@npm:1.4.6":
   version: 1.4.6
   resolution: "cookie-parser@npm:1.4.6"
   dependencies:
@@ -563,7 +563,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"debug@npm:4, debug@npm:4.x, debug@npm:^4.1.0, debug@npm:^4.3.3, debug@npm:^4.3.4":
+"debug@npm:4, debug@npm:4.3.4, debug@npm:4.x, debug@npm:^4.1.0, debug@npm:^4.3.3":
   version: 4.3.4
   resolution: "debug@npm:4.3.4"
   dependencies:
@@ -732,7 +732,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"express@npm:^4.18.1":
+"express@npm:4.18.1":
   version: 4.18.1
   resolution: "express@npm:4.18.1"
   dependencies:
@@ -1018,7 +1018,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"http-errors@npm:2.0.0, http-errors@npm:^2.0.0":
+"http-errors@npm:2.0.0":
   version: 2.0.0
   resolution: "http-errors@npm:2.0.0"
   dependencies:
@@ -1575,7 +1575,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"morgan@npm:^1.10.0":
+"morgan@npm:1.10.0":
   version: 1.10.0
   resolution: "morgan@npm:1.10.0"
   dependencies:
@@ -1652,7 +1652,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nodemon@npm:^2.0.16":
+"nodemon@npm:2.0.16":
   version: 2.0.16
   resolution: "nodemon@npm:2.0.16"
   dependencies:
@@ -1977,13 +1977,13 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "restful-api-challenge@workspace:."
   dependencies:
-    cookie-parser: ^1.4.6
-    debug: ^4.3.4
-    express: ^4.18.1
-    http-errors: ^2.0.0
+    cookie-parser: 1.4.6
+    debug: 4.3.4
+    express: 4.18.1
+    http-errors: 2.0.0
     mongoose: 6.4.2
-    morgan: ^1.10.0
-    nodemon: ^2.0.16
+    morgan: 1.10.0
+    nodemon: 2.0.16
   languageName: unknown
   linkType: soft
 
